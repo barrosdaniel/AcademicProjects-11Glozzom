@@ -19,3 +19,33 @@ body {
 .navbar .nav-item:hover,
 .navbar .nav-item:active {
   border-bottom: 2px solid var(--higlight-color); }
+@media screen and (max-width: 575px) {
+  .navbar .nav-item {
+    transition: none;
+    border-bottom: none;
+    border-left: 2px solid transparent; }
+  .navbar .nav-item.active {
+    border-bottom: none;
+    border-left: 2px solid var(--higlight-color); }
+  .navbar .nav-item:hover,
+  .navbar .nav-item:active {
+    border-bottom: none;
+    border-left: 2px solid var(--higlight-color); } }
+
+#showcase .carousel-item {
+  height: 450px; }
+#showcase .carousel-image-1 {
+  background: url(../img/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+#showcase .carousel-image-2 {
+  background: url(../img/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+#showcase .carousel-image-3 {
+  background: url(../img/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
