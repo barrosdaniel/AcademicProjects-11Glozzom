@@ -1,3 +1,21 @@
-h1 {
-  color: red;
-}
+:root {
+  --higlight-color: #666; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px; }
+
+.navbar .nav-item {
+  border-bottom: 2px solid transparent;
+  transition: 0.4s; }
+.navbar .nav-link {
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  font-size: 0.9rem;
+  text-transform: uppercase; }
+.navbar .nav-item.active {
+  border-bottom: 2px solid var(--higlight-color); }
+.navbar .nav-item:hover,
+.navbar .nav-item:active {
+  border-bottom: 2px solid var(--higlight-color); }
