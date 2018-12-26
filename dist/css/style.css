@@ -14,8 +14,7 @@ body {
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   font-size: 0.9rem;
   text-transform: uppercase; }
-.navbar .nav-item.active {
-  border-bottom: 2px solid var(--higlight-color); }
+.navbar .nav-item.active,
 .navbar .nav-item:hover,
 .navbar .nav-item:active {
   border-bottom: 2px solid var(--higlight-color); }
@@ -24,9 +23,7 @@ body {
     transition: none;
     border-bottom: none;
     border-left: 2px solid transparent; }
-  .navbar .nav-item.active {
-    border-bottom: none;
-    border-left: 2px solid var(--higlight-color); }
+  .navbar .nav-item.active,
   .navbar .nav-item:hover,
   .navbar .nav-item:active {
     border-bottom: none;
@@ -35,17 +32,33 @@ body {
 #showcase .carousel-item {
   height: 450px; }
 #showcase .carousel-image-1 {
-  background: url(../img/image1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 #showcase .carousel-image-2 {
-  background: url(../img/image2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 #showcase .carousel-image-3 {
-  background: url(../img/image3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+@media screen and (max-width: 575px) {
+  #showcase .carousel-image-1 {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #showcase .carousel-image-2 {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #showcase .carousel-image-3 {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; } }
