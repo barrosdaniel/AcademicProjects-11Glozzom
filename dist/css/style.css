@@ -87,7 +87,7 @@ body {
 
 #video-play {
   position: relative;
-  min-height: 216px;
+  min-height: 200px;
   background: url(../img/media.jpg);
   background-repeat: no-repeat;
   background-position: 0 -300px;
@@ -106,3 +106,13 @@ body {
     width: 100%;
     height: 100%;
     background: var(--image-overlay); }
+
+#page-header {
+  height: 200px;
+  background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--text-light-color);
+  border-bottom: 1px solid var(--text-light-color); }
