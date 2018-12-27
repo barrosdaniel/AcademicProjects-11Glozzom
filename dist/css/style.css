@@ -116,3 +116,6 @@ body {
   background-attachment: fixed;
   color: var(--text-light-color);
   border-bottom: 1px solid var(--text-light-color); }
+
+.about-img {
+  margin-top: -50px; }
