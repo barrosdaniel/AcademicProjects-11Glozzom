@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 .navbar .nav-item {
   border-bottom: 2px solid transparent;
@@ -75,8 +76,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: var(--text-light-color);
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
   #home-heading .dark-overlay {
     position: absolute;
     top: 0;
