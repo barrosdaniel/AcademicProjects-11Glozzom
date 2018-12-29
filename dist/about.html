@@ -169,14 +169,41 @@
 
 
 
-
-
-  <div style="height: 800px"></div>
-
-
-
-
-
+  <!-- Testimonials
+  ====================================================================== -->
+  <section id="testimonials" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center">Testimonials</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Natus, quidem!</p>
+                <footer class="blockquote-footer">John Dow, <cite>Company One</cite></footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Natus, quidem!</p>
+                <footer class="blockquote-footer">Sam Smith, <cite>Company Two</cite></footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Natus, quidem!</p>
+                <footer class="blockquote-footer">Megan Williams, <cite>Company
+                    Three</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -209,6 +236,13 @@
   <script>
     // Get current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Initialise testimonials slider
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
   </script>
 </body>
 
