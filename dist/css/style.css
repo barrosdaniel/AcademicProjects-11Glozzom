@@ -139,3 +139,7 @@ body {
 #faq a {
   color: var(--text-light-color);
   text-decoration: none; }
+
+#staff hr {
+  border-color: var(--highlight-color-dark);
+  background-color: var(--highlight-color-dark); }
