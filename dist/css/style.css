@@ -122,6 +122,12 @@ body {
   color: var(--text-light-color);
   border-bottom: 1px solid var(--text-light-color); }
 
+#gallery img {
+  transition: 0.5s; }
+#gallery img:hover {
+  transition: 0.5s;
+  transform: scale(1.05); }
+
 #main-footer {
   background-color: var(--background-color-dark);
   color: var(--text-light-color); }
