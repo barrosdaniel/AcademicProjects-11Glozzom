@@ -10,7 +10,7 @@ Visit the [website](https://www.glozzom.maturedev.com/index.html). Currently hos
 
 * HTML5;
 * CSS3 
-  (Variables, Flexbox. Libraries: Bootstrap, Lightbox, slich Slider, )
+  (Variables, Flexbox. Libraries: Bootstrap, Lightbox, slich Slider, CKEditor)
 * Sass
 * Responsive Design
   (Media queries)
