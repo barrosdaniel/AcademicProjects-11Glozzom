@@ -9,6 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 16px;
   overflow-x: hidden; }
@@ -17,6 +18,7 @@ body {
   background-color: var(--background-color-dark) !important; }
   .navbar .nav-item {
     border-bottom: 2px solid transparent;
+    -webkit-transition: 0.4s;
     transition: 0.4s; }
   .navbar .nav-link {
     padding: 0.5rem 1rem 0.5rem 1rem !important;
@@ -28,6 +30,7 @@ body {
     border-bottom: 2px solid var(--higlight-color); }
   @media screen and (max-width: 575px) {
     .navbar .nav-item {
+      -webkit-transition: none;
       transition: none;
       border-bottom: none;
       border-left: 2px solid transparent; }
@@ -40,16 +43,19 @@ body {
 #showcase .carousel-item {
   height: 450px; }
 #showcase .carousel-image-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--image-overlay)), to(var(--image-overlay))), url(../img/image1.jpg);
   background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 #showcase .carousel-image-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--image-overlay)), to(var(--image-overlay))), url(../img/image2.jpg);
   background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 #showcase .carousel-image-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--image-overlay)), to(var(--image-overlay))), url(../img/image3.jpg);
   background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image3.jpg);
   background-size: cover;
   background-position: center;
@@ -114,6 +120,7 @@ body {
 #page-header {
   margin-top: 56px;
   height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--image-overlay)), to(var(--image-overlay))), url(../img/image1.jpg);
   background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -123,9 +130,12 @@ body {
   border-bottom: 1px solid var(--text-light-color); }
 
 #gallery img {
+  -webkit-transition: 0.5s;
   transition: 0.5s; }
 #gallery img:hover {
+  -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-transform: scale(1.05);
   transform: scale(1.05); }
 
 #main-footer {
