@@ -112,6 +112,7 @@ body {
     background: var(--image-overlay); }
 
 #page-header {
+  margin-top: 56px;
   height: 200px;
   background-image: linear-gradient(var(--image-overlay), var(--image-overlay)), url(../img/image1.jpg);
   background-position: center;
